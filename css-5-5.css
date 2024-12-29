@@ -1,0 +1,907 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+    background-color: #040405;
+    color: #fff;
+
+}
+
+/*!!!!! Header !!!!! */
+
+.headerCont {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 200px;
+    align-items: center;
+    border-bottom: 1px solid #003004;
+    flex-wrap: wrap;
+
+}
+
+.Convex {
+    display: flex;
+    align-items: center;
+}
+
+.navigatCont {
+    display: flex;
+    align-items: center;
+}
+
+.buttonCont {
+    display: flex;
+    align-items: center;
+}
+
+.navigatCont ul,
+a {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    list-style-type: none;
+    text-decoration: none;
+    /*     Ancor      */
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+.navigatCont a:hover {
+    color: aquamarine;
+}
+
+.navigatCont a:active {
+    color: rgb(29, 95, 29);
+}
+
+/* button */
+button {
+    display: flex;
+    padding: 12px 24px;
+    border-radius: 24px;
+    background-color: #00FF1A;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgb(156, 147, 147);
+}
+
+/* !!!!!! main !!!!!! */
+.wholeCont {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    width: 1040px;
+    gap: 112px;
+}
+
+
+.MainFirsCont {
+    display: flex;
+    justify-content: center;
+    gap: 151px;
+}
+
+.SmallLeftCont {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    display: flex;
+    max-width: 564px;
+    align-items: flex-start;
+
+}
+
+.SmallLeftCont div,
+p {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.bigText {
+    display: flex;
+    align-self: stretch;
+}
+
+.bigText p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.smallText p {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+}
+
+.buttons {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.AncorStake {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+
+    border-radius: 24px;
+    background-color: #00FF1A;
+    align-items: center;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.AncorStake:hover {
+    color: rgb(58, 59, 59);
+    padding: 13px 24px;
+
+}
+
+.AncorWork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: 1px solid #00FF1A;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+}
+
+.AncorWork:hover {
+    color: rgb(41, 161, 81);
+    padding: 12px 24px;
+    border: 2px solid white;
+}
+
+
+/*!!!!!!!! SEc Cont!!!!!!!!!! */
+
+.secConteinerOFmain {
+    display: flex;
+    justify-content: center;
+    width: 815px;
+    gap: 40px;
+    padding-top: 24px;
+    border-top: 1px solid #00FF1A;
+
+
+
+}
+
+.Dolarr {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.dollarOne {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 125% */
+}
+
+.DollarNeigbor {
+    color: #7A7A7A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+/*!!!!!!!! Frog   !!!!!!!!*/
+.thrdCont {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.logoContFrog {
+    display: flex;
+}
+
+.TextContNextFrog {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.vectorCont {
+    display: flex;
+    gap: 12px;
+
+}
+
+.solo {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.TextConteiner {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.pointCont {
+    display: flex;
+    gap: 16px;
+}
+
+
+.columDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.SmallbackgrCont {
+    display: flex;
+    width: 16px;
+    height: 16px;
+    background-color: #00FF1A;
+    border-radius: 50px;
+
+}
+
+.with {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.boost {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/*!!!!!!!!!!!!!   How it works !!!!!!!!! */
+
+
+.WorksCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.bigTexcT {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.logoCOnteiner {
+    display: flex;
+
+    gap: 10px;
+    align-items: center;
+    align-self: stretch;
+}
+
+.greenIconsCont {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: center;
+
+
+    justify-content: space-between;
+
+    justify-content: center;
+    gap: 37px;
+    width: 245px;
+}
+
+.textConTs {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+}
+
+.greenIconsCont img {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid #00ff1a;
+    background-color: rgba(0, 255, 26, 0.10);
+}
+
+.greenIconsCont img:hover {
+    background-color: rgba(87, 83, 109, 0.945);
+    cursor: pointer;
+}
+
+.textContDIV {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.FirstexCont {
+    display: flex;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+
+.secTexCONT {
+    color: #7A7A7A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.verticalVector {
+    display: flex;
+    width: 0px;
+    height: 182px;
+    align-items: end;
+}
+
+.verticalVector img {
+    display: flex;
+    height: 89px;
+}
+
+/*!!!!!!! FIFT !!!!!!!!!!!*/
+.FiftCOnt {
+    display: flex;
+    gap: 22px;
+}
+
+.FiftCOntOne {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.vectorCont {
+    display: flex;
+}
+
+.BigTecrCon {
+    display: flex;
+    align-self: stretch;
+}
+
+
+.bigTexcTCONT {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.makeTextSize {
+    align-self: stretch;
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.IsideCont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.helperDiv {
+
+    gap: 8px;
+    display: flex;
+    height: 111px;
+    padding: 0px 16px 24px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    border-left: 2px solid greenyellow;
+}
+
+.Deposit {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+}
+
+.hekperCont {
+    width: 403px;
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+.helperDiv1 {
+    gap: 8px;
+    display: flex;
+    height: 111px;
+    padding: 0px 16px 24px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    border-left: 2px solid #4A4A4E;
+}
+
+/* !!!!!! lastConteiner !!!!! */
+
+.lastOne {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.6);
+
+}
+
+.leftConteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.insideCont {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+
+.smallContent {
+    display: flex;
+    gap: 12px;
+}
+
+.Solodescription {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 32px;
+    background: #1C1C20;
+
+}
+
+.personelDescription {
+    display: flex;
+    align-items: start;
+    gap: 16px;
+
+}
+
+.descText {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.textsofclaws {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.FirsTane {
+    display: flex;
+    align-items: center;
+
+}
+
+.vectorSmall {
+    display: flex;
+    align-items: center;
+}
+
+.cityOfpersonel {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+}
+
+.PersonelData {
+    display: flex;
+    gap: 13px;
+}
+
+.customer {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.persoText {
+    display: inline;
+    color: #B7B7B7;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 136.023%;
+    letter-spacing: 0.77px;
+    font-style: italic;
+}
+
+.persos {
+    display: flex;
+    width: 440px;
+}
+
+span {
+
+    color: #00FF1A;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 136.023%;
+    letter-spacing: 0.77px;
+}
+
+.clawdown {
+    display: flex;
+    justify-content: right;
+}
+
+
+.scralls {
+    display: flex;
+    gap: 16px;
+}
+
+.nakleboba {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #F8F8F8;
+}
+
+.metoba {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #00FF1A;
+}
+
+
+.bottonCOnt {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.neigbours {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 12px;
+    align-items: flex-start;
+    background: #1C1C20;
+
+}
+
+.phone {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.numbers {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.call {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #00FF1A;
+}
+
+.giveNAme {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.vectoricont {
+    display: flex;
+    gap: 12px;
+}
+
+.Testimonial {
+    display: flex;
+    align-items: center;
+}
+
+.Leave p {
+    display: flex;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.FormalCont {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    align-items: stretch;
+}
+
+.nameForm {}
+
+.Submition {
+   width: 100%;
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 4px;
+    background: #00FF1A;
+}
+
+.Submition:active{
+    color:red;
+}
+input {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid #565656;
+    background: #1C1C20;
+    width: 100%;
+    color:#fff;
+}
+
+input::placeholder {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;  
+}
+
+textarea{
+    color: #fff;
+    display: flex;
+    width: 328px;
+    height: 155px;
+    padding: 12px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #1C1C20;
+    resize: none;
+}
+.rightConteiner{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px 32px;
+    align-self: stretch;
+    background: #1C1C20;
+    justify-content: center;
+}
+
+.formCont {
+    display: flex;
+    width: 328px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    justify-content: center;
+}
+
+
+/* !!!!!!!!!!!!!!! FOOTER !!!!!!!!!!!! */
+
+.footerCont{
+    display: flex;
+    align-items: flex-start;
+    border-top: 1px solid #00FF1A;
+    justify-content: center;
+    padding: 40px 0px;
+    justify-content: space-around;
+    padding: 40px 200px;
+    
+}
+.imgCont{
+    display: flex;
+    align-items: flex-start;
+}
+
+.ancors{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+
+}
+.mainAncor p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+
+.secAncor{
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+
+.iconsCont{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+
+.twitIcons{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.secAncor:hover{
+    color: aquamarine;
+}
+
+
+.secAncor:active{
+    color: rgb(29, 95, 29);
+}
